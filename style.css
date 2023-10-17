@@ -71,4 +71,5 @@ header ul {
 .middle-section {
   display: flex;
   justify-content: space-evenly;
+  margin: 20px auto;
 }
