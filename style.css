@@ -35,18 +35,15 @@ header ul {
 }
 
 .logo { 
-  margin: auto 0;
+  margin: auto 5px;
   font-size: 24px;
   color: #F9FAF8;
 }
 
-main {
-  width: 100%;
-}
 .top-section {
   display: inline-flex;
-  padding: 48px;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 100%;
   background-color: #1F2930;
 }
 
@@ -61,7 +58,17 @@ main {
   color: #E5E7EB;
 }
 
+.top-left {
+  padding: 20px;
+  margin: 20px;
+}
 .top-right {
   background-color: grey;
   padding: 20px;
+  margin: 20px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-evenly;
 }
