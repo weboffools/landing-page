@@ -20,7 +20,7 @@ header {
   display: flex;
   height: 40px; 
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #1F2930;
   margin: 0;
 }
@@ -42,15 +42,16 @@ header ul {
 
 .top-section {
   display: inline-flex;
-  justify-content: space-evenly;
   width: 100%;
   background-color: #1F2930;
+  justify-content: center;
 }
 
 .hero-txt {
   font-size: 48px;
   font-weight: 800;
   color: #F9FAF8;
+  width: 200px;
 }
 
 .hero-second {
@@ -62,6 +63,7 @@ header ul {
   padding: 20px;
   margin: 20px;
 }
+
 .top-right {
   background-color: grey;
   padding: 20px;
@@ -69,7 +71,58 @@ header ul {
 }
 
 .middle-section {
+  margin: 48px;
+}
+
+.mid-head {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.image-section {
   display: flex;
-  justify-content: space-evenly;
-  margin: 20px auto;
+  justify-content: center;
+  gap: 48px;
+}
+
+.mid-item {
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+}
+
+.img-caption {
+  display: block;
+  width: 128px;
+  margin: 0 auto;
+}
+
+.bottom-section {
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  margin: 36px;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+footer {
+  padding: 64px;
+}
+
+.call-action {
+  background-color: #3882f6;
+  padding: 48px;
 }
