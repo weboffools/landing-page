@@ -17,7 +17,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 0;
-  width: 1000px;
+  width: 100%;
   margin: auto;
 }
 
@@ -102,7 +102,7 @@ header ul {
 .image-section {
   display: flex;
   justify-content: center;
-  gap: 48px;
+  gap: 64px;
 }
 
 .mid-item {
@@ -146,10 +146,42 @@ cite {
 
 .call-action {
   display: inline-flex;
+  border: 1px solid #3882F6;
+  border-radius: 5px;
   justify-content: space-between;
+  align-items: center;
   background-color: #3882f6;
   padding: 48px;
   width: 80%;
+}
+
+.call-left {
+  display: block;
+  text-align: left;
+}
+
+.call-head {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+
+.call-text {
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+.call-button {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 96px;
+  text-align: center;
+  padding: 5px;
+  
 }
 
 footer {  
