@@ -8,6 +8,11 @@ html {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
 .container {
   display: flex;
   flex-direction: column;
