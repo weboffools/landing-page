@@ -34,6 +34,7 @@ header ul {
   display: inline-flex;
   justify-content: space-evenly;
   list-style: none;
+  font-size: 18px;
   width: 30%;
   margin: auto 0 auto 0;
   color: #E5E7EB;
@@ -48,6 +49,7 @@ header ul {
 .top-section {
   display: inline-flex;
   width: 100%;
+  align-items: center;
   background-color: #1F2930;
   justify-content: center;
 }
@@ -64,14 +66,25 @@ header ul {
   color: #E5E7EB;
 }
 
+.hero-btn {
+  background: #3882F6;
+  color: #F9FAF8;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  width: 96px;
+  border-radius: 5px;
+  border-style: none;
+  padding: 5px;
+  margin: 5px;
+}
+
 .top-left {
   padding: 20px;
   margin: 20px;
 }
 
 .top-right {
-  background-color: grey;
-  padding: 20px;
   margin: 20px;
 }
 
@@ -100,11 +113,14 @@ header ul {
 .img-caption {
   display: block;
   width: 128px;
+  font-size: 18px;
+  text-align: center;
   margin: 0 auto;
 }
 
 .bottom-section {
   background-color: #e5e7eb;
+  padding: 24px;
 }
 
 blockquote {
@@ -123,11 +139,26 @@ cite {
   font-size: 24px;
 }
 
-footer {
-  padding: 64px;
+.sub-bottom-section {
+  padding: 4em; 
+  text-align: center;
 }
 
 .call-action {
+  display: inline-flex;
+  justify-content: space-between;
   background-color: #3882f6;
   padding: 48px;
+  width: 80%;
 }
+
+footer {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #F9FAF8;
+  height: 64px;
+}
+
+
